@@ -496,10 +496,6 @@ img {
     text-align: center;
 }
 
-/* .about-li:not(:last-child) {
-    margin-right: 30px;
-} */
-
 .about-li-item {
     background-color: var(--second-btn-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -616,14 +612,11 @@ img {
     margin-right: 30px;
 }
 
-
-
 .icon {
     fill: currentColor;
 }
 
 /* Footer */
-
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -689,7 +682,6 @@ img {
     line-height: 1.1721;
     letter-spacing: 0.02em;
     transition: color var(--tran-dur-and-tim-fun);
-
 }
 
 .footer-item:hover,
@@ -750,6 +742,71 @@ img {
     background-color: var(--accent-color);
 }
 
+/*Footer Subscribe */
+.subscribe {
+    margin-left: 93px;
+}
+
+.subscribe-tittle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-btn-color);
+    margin-bottom: 20px;
+}
+
+.subscribe input {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--footer-background-color);
+
+    color: var(--mail-tel-color);
+    font-size: 16px;
+    line-height: 1.15;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+
+    cursor: pointer;
+    color: var(--second-btn-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
+    gap: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    letter-spacing: 0.06em;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    background-color: var(--second-bt-bg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+}
+
 /* Portfolio html */
 
 .header-line {
@@ -801,7 +858,6 @@ img {
     margin-bottom: 0px;
 }
 
-
 .work-name {
     color: var(--second-text-color);
     font-family: 'Roboto';
@@ -811,8 +867,6 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;
 }
-
-
 
 /* Work card hover style */
 .work-card-thumb {
@@ -891,7 +945,6 @@ img {
 }
 
 /* Button */
-
 .hero-btn {
     max-width: 216px;
     width: 100%;
@@ -916,21 +969,14 @@ img {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    width: 216px;
-    height: 50px;
-    border-radius: 4px;
-
     background-color: var(--second-bt-bg);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
-
-
 }
 
 .filter-button {
     cursor: pointer;
     border-radius: 4px;
     padding: 6px 22px;
-
 
     color: var(--second-text-color);
     background-color: var(--second-bg-color);
@@ -950,8 +996,5 @@ img {
 .filter-button:focus {
     color: var(--second-btn-color);
     background-color: var(--accent-color);
-    border-color: transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-/* work-list */
