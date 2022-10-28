@@ -375,20 +375,15 @@ img {
     top: 50%;
     left: 0px;
     transform: translateY(-50%);
-
     display: inline-block;
     width: 16px;
     height: 15px;
-    border: 2px solid var(--primary-text-color);
+    border: 2px solid var(--second-text-color);
     border-radius: 2px;
     background-color: var(--primary-background-color);
     cursor: pointer;
     outline: none;
     transition: border-color var(--tran-dur-and-tim-fun), background-color var(--tran-dur-and-tim-fun);
-}
-
-.user-policy-checkbox-input:focus+label .user-policy-checkbox-frame {
-    border-color: var(--accent-color);
 }
 
 .user-policy-checkbox-input:checked+label .user-policy-checkbox-frame {
@@ -398,8 +393,8 @@ img {
 
 .user-policy-checkbox-icon {
     position: absolute;
-    left: 1px;
-    top: 2px;
+    left: -1px;
+    top: -2px;
     fill: var(--second-btn-color);
 }
 
