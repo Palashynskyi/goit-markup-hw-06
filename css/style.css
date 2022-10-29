@@ -1130,11 +1130,9 @@ img {
     border-radius: 4px;
     margin-bottom: 200px;
     cursor: pointer;
-
     color: var(--second-btn-color);
     background-color: var(--accent-color);
     border-color: transparent;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -1155,11 +1153,9 @@ img {
     cursor: pointer;
     border-radius: 4px;
     padding: 6px 22px;
-
     color: var(--second-text-color);
     background-color: var(--second-bg-color);
     border-color: transparent;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
