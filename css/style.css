@@ -372,12 +372,15 @@ img {
 
 .user-policy-checkbox-frame {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 50%;
     left: 0px;
     transform: translateY(-50%);
-    display: inline-block;
     width: 16px;
     height: 15px;
+    padding-top: 1px;
     border: 2px solid var(--second-text-color);
     border-radius: 2px;
     background-color: var(--primary-background-color);
@@ -386,15 +389,16 @@ img {
     transition: border-color var(--tran-dur-and-tim-fun), background-color var(--tran-dur-and-tim-fun);
 }
 
+.user-policy-checkbox-frame:hover {
+    border-color: var(--accent-color);
+}
+
 .user-policy-checkbox-input:checked+label .user-policy-checkbox-frame {
     border-color: var(--accent-color);
     background-color: var(--accent-color);
 }
 
 .user-policy-checkbox-icon {
-    position: absolute;
-    left: -1px;
-    top: -2px;
     fill: var(--second-btn-color);
 }
 
@@ -935,7 +939,6 @@ img {
 .subscribe input {
     width: 358px;
     height: 50px;
-    margin-right: 12px;
     padding: 15px 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
