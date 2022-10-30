@@ -321,9 +321,9 @@ img {
 
 .modal-input-wrapper {
     position: relative;
+    display: block;
+    margin-top: 4px;
     width: 100%;
-    margin-bottom: 10px;
-    line-height: 16.1px;
 }
 
 
@@ -351,6 +351,18 @@ img {
 }
 
 /* Checkbox */
+.form-label-textarea {
+    display: block;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 1.1666;
+    letter-spacing: 0.01em;
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
 .form-input:focus,
 .modal-textarea-comment:focus {
     color: var(--accent-color);
@@ -412,8 +424,8 @@ img {
     width: 100%;
     height: 120px;
     resize: none;
-    margin-bottom: 20px;
     padding: 12px 16px;
+    margin-top: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     font-size: 14px;
@@ -465,13 +477,13 @@ img {
 .form-label {
     display: block;
     text-align: left;
-    margin-bottom: 4px;
     font-family: 'Roboto';
     font-size: 12px;
     line-height: 1.1666;
     letter-spacing: 0.01em;
     color: var(--secondary-text-color);
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .btn-modal-close {
@@ -925,6 +937,7 @@ img {
     margin-left: 93px;
 }
 
+
 .subscribe-tittle {
     font-family: 'Roboto';
     font-style: normal;
@@ -951,7 +964,7 @@ img {
     line-height: 1.15;
 }
 
-.subscribe-form {
+.form-thumb {
     display: flex;
     gap: 12px;
 }
